@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm So Sorry ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="page active" id="page1">
+            <h1>I'm So Sorry 😔❤️</h1>
+	    <img src="IMG_6716.jpg" alt="Us Together" class="apology-photo">
+            <p>I messed up, and I regret hurting you.</p>
+            <button onclick="nextPage()">Let Me Explain...</button>
+        </div>
+
+        <div class="page" id="page2">
+            <h1>I Know What I Did...</h1>
+            <p>I should’ve considered your feelings.</p>
+            <button onclick="nextPage()">I Promise To Do Better →</button>
+        </div>
+
+        <div class="page" id="page3">
+            <h1>I’ll Make It Up To You</h1>
+            <p>I’ll spend every day making you happy.</p>
+            <p>You mean everything to me.</p>
+            <button onclick="nextPage()">Can You Forgive Me? ❤️</button>
+        </div>
+
+        <div class="page" id="page4">
+            <h1>Please Forgive </h1>
+            <p>I’ll do better. Here's our song:</p>
+	    <audio controls class="song-player">
+        <source src="Perfect.mp3" type="audio/mpeg">
+            </audio>
+	   		
+            <button onclick="forgiveMe()">Click If You Forgive Me</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
